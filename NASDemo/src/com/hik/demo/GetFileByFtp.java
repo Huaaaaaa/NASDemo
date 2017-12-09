@@ -33,8 +33,8 @@ public class GetFileByFtp {
 		boolean isConnect = false;
 		ftpClient = new FTPClient();
 		try {
-			ftpClient.connect("10.192.77.136", 21);
-			ftpClient.login("smb1", "whhik123");
+			ftpClient.connect("ip", 21);
+			ftpClient.login("username", "password");
 			ftpClient.setFileType(FTPClient.BINARY_FILE_TYPE);
 			int code = ftpClient.getReplyCode();
 			if (!FTPReply.isPositiveCompletion(code)) {

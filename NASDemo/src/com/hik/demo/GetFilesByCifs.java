@@ -223,7 +223,7 @@ public class GetFilesByCifs {
 	 */
 	public static void copyLocalFile() {
 		File srcFile = new File(
-				"C:/Users/huayingcao.HIK/Desktop/HOS云盘/hcss/视频/lu2.mp4");
+				"");
 		File desFile = new File("E:/nas_demo/cifs/lu2_test.mp4");
 		FileInputStream fis = null;
 		FileOutputStream fos = null;
